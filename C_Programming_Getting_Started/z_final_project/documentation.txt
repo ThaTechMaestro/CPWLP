@@ -1,0 +1,18 @@
+Worked on the output statement, The result specified
+Made use of format specifier
+
+  printf("you rolled: %d, current average: %d", );
+
+
+Numeric values of program output should be in one decimal place.
+
+-----------------------------------------
+Why scanf() takes the ampersand value(&)
+    In programming
+
+    int a = 3
+
+    Space is created based on the max number of values 
+        int valued variable 
+
+
