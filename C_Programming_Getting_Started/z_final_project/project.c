@@ -1,19 +1,33 @@
-// Print the x8 multiplication table in a specified format
-
 #include <stdio.h>
 
 int main(void) {
-    int first_value;
-    int second_value = 8;
-    int age;
+  
+
+  int counter;
+  int redValue, yellowValue, greenValue;
+  int value; 
+  double average;
+  int total = 0;
+  int n = 1;
+
+  scanf("%d", &counter);
+
+  for(int i = 0; i<counter; i++){
+
+    scanf("%d %d %d", &redValue, &yellowValue, &greenValue);
+    value = (greenValue*100)+(yellowValue*10)+(redValue);
+    total+=value;
+    
+    average = (double)total/n;
+   
+
+     printf("%d. you rolled: %d, current average: %.1lf\n",n ,value, average);
+    
+     n+=1;
 
 
-    for (first_value = 0; first_value<11; first_value++)
-    {
-      printf("%d*%d = %d\n", first_value, second_value, (first_value*second_value));
+  }
 
-    }
+  return 0;
 
-
-    return(0);
 }

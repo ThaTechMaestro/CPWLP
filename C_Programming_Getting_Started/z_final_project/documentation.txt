@@ -12,7 +12,10 @@ Why scanf() takes the ampersand value(&)
 
     int a = 3
 
-    Space is created based on the max number of values 
-        int valued variable 
+    Understanding how int a = 3 is stored in memory
+    Link: https://hugoalbertotrujillomartinez.medium.com/how-is-an-integer-value-stored-in-the-memory-in-c-b5e304872c16
+    
+    Space is created based on the type specified
+
 
 
