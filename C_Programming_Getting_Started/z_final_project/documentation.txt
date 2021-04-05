@@ -1,10 +1,8 @@
-Worked on the output statement, The result specified
-Made use of format specifier
+Worked on the output statement, The result specified should be in 1 decimal place
+  Made use of format specifier
 
   printf("you rolled: %d, current average: %d", );
 
-
-Numeric values of program output should be in one decimal place.
 
 -----------------------------------------
 Why scanf() takes the ampersand value(&)
@@ -15,7 +13,21 @@ Why scanf() takes the ampersand value(&)
     Understanding how int a = 3 is stored in memory
     Link: https://hugoalbertotrujillomartinez.medium.com/how-is-an-integer-value-stored-in-the-memory-in-c-b5e304872c16
     
-    Space is created based on the type specified
+    The scanf does not take an ampersand value
+    rather it takes a pointer to a location in memory
+
+    scanf("%d", &counter);
+    In our case a pointer to the location where a variable being referenced by "counter"
+      is stored can also be accesed by its memory address.
+
+    The ampersand value returns the memory address of the set of memory created by the 
+      reference variable "counter". The input read from the scanf function takes this input
+      and stores in the memory location being pointed to by the memory address specified.
+
+-----------------------------------------------
+Converting an int data type to a double data type
+  Explicity specified the double data type.
+  It is referred to as type casting
 
 
 
