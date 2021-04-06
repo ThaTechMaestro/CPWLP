@@ -5,7 +5,7 @@
 int main(void) {
     int first_value;
     int second_value = 8;
-    int age;
+    
 
 
     for (first_value = 0; first_value<11; first_value++)
