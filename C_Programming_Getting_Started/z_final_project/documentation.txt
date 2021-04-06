@@ -1,3 +1,7 @@
+This contains answers to my questions developed from being curious while working on the final project.
+It also contains important concepts which I found useful in successfully completing the project.
+
+------------------------------------------
 Worked on the output statement, The result specified should be in 1 decimal place
   Made use of format specifier
 
