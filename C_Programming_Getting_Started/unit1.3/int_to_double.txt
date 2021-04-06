@@ -1,0 +1,46 @@
+---------------------------------
+#include <stdio.h>
+int main(void)
+
+{
+  int numberOfGrades;
+  int grades;
+  int  total;
+
+    scanf("%d", &numberOfGrades);
+
+    for(int i = 0; i < numberOfGrades; i++){
+
+      scanf("%d", &grades);
+      printf("%d\n",grades);
+      printf("%d\n",total);
+
+      
+
+
+    }
+
+    
+    return 0;
+}
+ ------------
+
+ While solving this exercise, I came across something very interesting
+ 
+ It was a mistake at first but found out it was a concept in c.
+
+ total is defined but not assigned any variable.
+ But on printing it out, it gave an output containing the value entered for grades and a
+    set of random values. Each on a new line
+
+    For an Input of:
+    2
+    4 (first value)
+
+    An Output of:
+    4 (value of the grades)
+    4 (value for total)
+    234323 (random value for total)
+
+
+--> Understand the why and inspect this
